@@ -1,0 +1,198 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+*{
+  box-sizing: border-box;
+}
+nav a{
+  text-decoration: none;
+  color:  #8a12daff;
+  font-family: 'Pacifico', cursive;
+  
+}
+
+div a {
+  color: cyan
+
+  
+}
+body {
+  background-image: radial-gradient(#8a12daff,cyan);
+  font-family: 'Lato', sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0px 23px 0px 10px;
+  color: #000000;
+  border-radius: 10px;
+}
+footer {
+  width: 100%;
+  background-color: #8a12daff;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+footer strong { 
+  text-align: center;
+
+}
+footer strong u { 
+  text-align: center;
+}
+
+div{
+    display: block;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+div section{ 
+  background-color:#8a12daff;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100%;
+}
+header{
+  text-align: center;
+  padding: 2.5%;
+}
+
+header img{
+  height: auto;
+  align-items: center;
+  
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+h2{
+  text-align: center;
+  background: cyan;
+  border-radius: 10px;
+  font-family: 'Lobster', cursive;
+  font-size-adjust: auto;
+  font-size: 27px
+}
+
+h3{
+  text-align:center;
+  background: cyan;
+  border-radius: 10px;
+  font-family: 'Playfair Display', serif;
+  
+}
+
+li{
+  color: white
+}
+
+h4{
+  text-align: center;
+  
+}
+
+h5{
+  margin: 1px
+}
+a{
+  color: cyan;
+}
+hr{
+ border: 1px solid cyan;
+}
+  li.none{
+    list-style: none;
+  }
+main{
+  width: 100%;
+
+}
+li a img{
+  width: 2%;
+  height: auto;
+}
+li.justify{
+  justify-content: space-between;
+}
+nav{
+  background: cyan;
+  border-radius: 10px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  background: #8a12daff;
+  border-radius: 10px;
+}
+nav ul li{
+  border-radius: 10px;
+  background: cyan;
+  border: 2px solid #4e5196;
+  padding: 2px 5px 6px 5px;
+
+}
+p{
+  display:inline-block;
+  text-align: center;
+  color: azure
+}
+aside{
+  display: flex;
+  flex-wrap: wrap;
+}
+aside img{
+  width: 50%;
+  height:auto;
+}
+
+  @media only screen and (max-width: 400px){
+
+    aside{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    aside img{
+      width: 100%;
+      height:auto;
+    }
+  footer{
+    font-size: 15px;
+    text-align: center;
+  }
+  main, aside{
+    width: 100%;
+  }
+    p{
+  text-align: center}
+  
+li a img{
+  width: 9%;
+  height: auto;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  background: #8a12daff;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+nav ul li{
+  border-radius: 10px;
+  background: cyan;
+  border: 2px solid #4e5196;
+  padding: 2px 5px 6px 5px;
+  width: 100%;
+  text-align: center;
+}
+}
+
