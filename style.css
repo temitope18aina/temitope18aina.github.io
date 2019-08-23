@@ -160,6 +160,7 @@ and (max-device-width : 667px) {
     aside{
       display: flex;
       flex-wrap: wrap;
+      align-items: flex-start;
     }
     aside img{
       width: 100%;
