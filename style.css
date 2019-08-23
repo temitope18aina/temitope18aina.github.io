@@ -154,7 +154,7 @@ aside img{
   height:auto;
 }
 
-a@media only screen 
+@media only screen 
 and (min-device-width : 337px) {
 
     aside{
@@ -188,6 +188,7 @@ nav ul{
   background: #8a12daff;
   border-radius: 10px;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 nav ul li{
   border-radius: 10px;
