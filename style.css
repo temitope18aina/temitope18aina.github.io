@@ -155,7 +155,7 @@ aside img{
 }
 
 a@media only screen 
-and (min-device-width : 667px) {
+and (min-device-width : 337px) {
 
     aside{
       display: flex;
@@ -177,7 +177,7 @@ and (min-device-width : 667px) {
   text-align: center}
   
 li a img{
-  width: 20%;
+  width: 100%;
   height: auto;
 }
 nav ul{
