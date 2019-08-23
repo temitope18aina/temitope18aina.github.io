@@ -154,7 +154,9 @@ aside img{
   height:auto;
 }
 
-  @media only screen and (max-width: 750px){
+a@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
 
     aside{
       display: flex;
